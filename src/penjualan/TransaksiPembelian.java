@@ -2,7 +2,7 @@ package penjualan;
 
 import java.io.PrintStream;
 
-public class TransaksiPenjualan extends Transaksi {
+public class TransaksiPembelian extends Transaksi {
 
     @Override
     public void tampilkanTransaksi(PrintStream out) {
@@ -11,6 +11,6 @@ public class TransaksiPenjualan extends Transaksi {
             out.println("- " + barang.getProduk().getNama() + " (x" + barang.getJumlah() +
                     ", Rp " + barang.getTotalHarga() + ")");
         }
-        out.println("Total Pendapatan: Rp " + getTotalPendapatan());
+        out.println("Total Pembelian: Rp " + getTotalPendapatan());
     }
 }
