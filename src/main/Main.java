@@ -28,13 +28,19 @@ public class Main {
         transaksi2.tambahBarang(barang2);
         transaksi2.tambahBarang(barang3);
 
+        TransaksiPenjualan transaksi3 = new TransaksiPenjualan();
+        transaksi3.tambahBarang(barang1);
+        transaksi3.tambahBarang(barang2);
+        transaksi3.tambahBarang(barang3);
+
         // Membuat objek toko dan menambahkan transaksi
         Toko toko = new Toko("Minimarket");
         toko.tambahTransaksi(transaksi1);
         toko.tambahTransaksi(transaksi2);
+        toko.tambahTransaksi(transaksi3);
 
         // Menyimpan laporan penjualan toko ke file output_10.txt
-        PrintStream out = new PrintStream(new File("testcases/output_1.txt"));
+        PrintStream out = new PrintStream(new File("testcases/output_3.txt"));
         toko.tampilkanLaporan(out);
     }
 }

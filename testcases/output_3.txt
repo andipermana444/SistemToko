@@ -1,0 +1,18 @@
+Laporan Penjualan di Toko Minimarket:
+Daftar Barang dalam Transaksi:
+- Sabun Mandi (x5, Rp 25000.0)
+- Shampoo (x4, Rp 40000.0)
+Total Pendapatan: Rp 65000.0
+-----------------------
+Daftar Barang dalam Transaksi:
+- Shampoo (x4, Rp 40000.0)
+- Pasta Gigi (x2, Rp 14000.0)
+Total Pendapatan: Rp 54000.0
+-----------------------
+Daftar Barang dalam Transaksi:
+- Sabun Mandi (x5, Rp 25000.0)
+- Shampoo (x4, Rp 40000.0)
+- Pasta Gigi (x2, Rp 14000.0)
+Total Pendapatan: Rp 79000.0
+-----------------------
+Total Pendapatan Toko: Rp 198000.0
